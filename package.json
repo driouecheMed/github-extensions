@@ -1,14 +1,13 @@
 {
   "name": "github-extensions",
   "version": "1.0.0",
-  "description": "## Contributing See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.",
-  "main": "index.js",
+  "description": "",
+  "main": "src/entry.ts",
   "scripts": {
     "start": "npx webpack --config webpack.config.js --watch",
     "build": "npx webpack --config webpack.config.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "driouecheMed",
   "license": "Apache-2.0",
   "devDependencies": {
     "ts-loader": "^9.4.4",
