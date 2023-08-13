@@ -1,0 +1,22 @@
+{
+  "name": "github-extensions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/entry.ts",
+  "scripts": {
+    "start": "npx webpack --config webpack.config.js --watch",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "author": "driouecheMed",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "compression-webpack-plugin": "^10.0.0",
+    "terser-webpack-plugin": "^5.3.9"
+  }
+}

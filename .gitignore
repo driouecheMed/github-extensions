@@ -35,6 +35,11 @@ yarn-error.log*
 node_modules/
 jspm_packages/
 
+# Compiled output
+**/dist
+**/tmp
+**/out-tsc
+
 # Npm cache directory
 .npm
 
