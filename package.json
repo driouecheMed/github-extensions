@@ -1,0 +1,17 @@
+{
+  "name": "github-extensions",
+  "version": "1.0.0",
+  "description": "## Contributing See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
