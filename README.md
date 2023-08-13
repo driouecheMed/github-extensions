@@ -1,5 +1,19 @@
 # Github Extensions
 
+## Getting Started
+
+### Available Scripts
+
+#### `npm install`
+Install all the project's required dependencies.
+
+#### `npm run build`
+Compile and bundle TypeScript source code into a deployable JavaScript format using the configuration in 'webpack.config.js'.
+
+#### `npm start`
+Continuously monitor TypeScript source code changes, by recompiling and updating the output as needed, based on the 'webpack.config.js' settings.
+
+
 ## Contributing
 See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project. 
 
