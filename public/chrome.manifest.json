@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Extensions",
+  "version": "0.1.0",
+  "version_name": "v0.1.0-beta",
+  "description": "GitHub Extensions is an extensions for managing Github repositories",
+  "icons": { },
+  "action": {
+    "default_icon": { },
+    "default_title": "GitHub Extensions",
+    "default_popup": "index.html"
+  }
+}
