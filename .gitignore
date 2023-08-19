@@ -23,6 +23,7 @@ typings
 *.zip
 .todo
 TODO
+public/manifest.json
 
 # Logs
 logs
