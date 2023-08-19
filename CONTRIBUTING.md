@@ -1,11 +1,11 @@
-# Contributing to Github Extensions
+# Contributing to GitHub Extensions
 
-Thank you for considering contributing to Github Extensions! We welcome all contributions from the community, whether they are code contributions, bug reports, feature requests, or anything else.
+Thank you for considering contributing to GitHub Extensions! We welcome all contributions from the community, whether they are code contributions, bug reports, feature requests, or anything else.
 
 
 ## How to contribute
 
-Here are the steps to follow to contribute to Github Extensions:
+Here are the steps to follow to contribute to GitHub Extensions:
 
 1. Fork the repository and clone it to your local machine.
 2. Create a new branch for your changes: `git checkout -b my-branch`
@@ -18,7 +18,7 @@ Here are the steps to follow to contribute to Github Extensions:
 
 ## Code guidelines
 
-Please follow these guidelines when writing code for Github Extensions:
+Please follow these guidelines when writing code for GitHub Extensions:
 
 1. Be consistent with the existing code.
 2. Write clear code & self-explaining code.
