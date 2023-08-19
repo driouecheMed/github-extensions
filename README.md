@@ -1,4 +1,4 @@
-# Github Extensions
+# GitHub Extensions
 
 ## Getting Started
 
