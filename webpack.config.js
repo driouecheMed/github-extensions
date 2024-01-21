@@ -3,11 +3,15 @@ const TerserPlugin = require('terser-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
-  entry: './src/entry.ts',
-  mode: 'development', // Change to 'production' for production builds
+  entry: {
+    defaultPopup: './src/index.ts',
+    serviceWorker: './src/serviceWorker.ts',
+    contentScript: './src/contentScript.ts',
+  },
+  mode: 'development', // TODO: Change to 'production' for production builds
   devtool: 'source-map',
   output: {
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'public/dist'),
   },
   resolve: {

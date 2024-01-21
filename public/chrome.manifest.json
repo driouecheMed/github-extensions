@@ -9,5 +9,19 @@
     "default_icon": { },
     "default_title": "GitHub Extensions",
     "default_popup": "index.html"
+  },
+  "permissions": [
+    "downloads",
+    "tabs",
+    "webNavigation"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/contentScript.bundle.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "dist/serviceWorker.bundle.js"
   }
 }
