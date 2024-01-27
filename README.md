@@ -2,13 +2,17 @@
 
 ## Getting Started
 
-### Available Scripts
+### Available Development Scripts
 
 #### `npm install`
 Install all the project's required dependencies.
 
-#### `npm run build`
-Compile and bundle TypeScript source code into a deployable JavaScript format using the configuration in 'webpack.config.js'.
+#### `build_chrome_manifest.sh`
+Generate manifest file for chrome extensions (`manifest.json`).
+_(Make sure the script has executable permissions.)_
+
+#### `npm run build-dev`
+Compile and bundle TypeScript source code into a development JavaScript format using the configuration in 'webpack.config.js'.
 
 #### `npm start`
 Continuously monitor TypeScript source code changes, by recompiling and updating the output as needed, based on the 'webpack.config.js' settings.
