@@ -2,10 +2,9 @@
 
 echo 'Build extension for Chrome is starting...'
 
-echo 'Build src is starting...'
-npm run build
+echo 'Build bundles is starting...'
+npm run build-prod
 
-echo 'Build manifest is starting...'
-cp public/chrome.manifest.json public/manifest.json
+bash build_chrome_manifest.sh
 
 echo 'Build extension for Chrome completed.'
