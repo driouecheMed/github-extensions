@@ -18,6 +18,13 @@ Compile and bundle TypeScript source code into a development JavaScript format u
 Continuously monitor TypeScript source code changes, by recompiling and updating the output as needed, based on the 'webpack.config.js' settings.
 
 
+### Diagram
+
+The following diagram provides an overview of how different components interact and the sequence of operations in the overall process.
+
+![Diagram](images/diagram.png)
+
+
 ## Contributing
 See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project. 
 
